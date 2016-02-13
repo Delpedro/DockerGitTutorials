@@ -1,0 +1,31 @@
+# GIT COMMANDS
+
+$ git config --global user.name "Delboy"
+$ git config --global user.email "delpeter@gmail.com"
+$ git config --list
+$ git config user.email
+$ git help
+$ pwd 
+$ cd ~ (home)
+$ git init (initialised empty git repository in "c:/location"
+$ git add . (Period - save everything in this directory or the changes in the project)
+$ git commit -m "Any message you like"
+$ git log 
+$ git log --author "User Name"
+$ git status (On branch master, nothing to commit, working directory clean) ---> Untracked files (in red) 
+$ git add "filename".txt (will only add to the staging area)
+$ git commit -m "filename.txt added from above command"
+$ git diff (See the differences)
+$ git diff --staged
+$ git rm "nameOfFile.txt"
+$ git commit -m "deleted a file as above command"
+$ git mv "originalName.txt" "newNamed.txt"
+$ git mv "newNamed.txt" commands/gitcommands/"secondNamedTxt"
+$ git command -m "renamed file and moved its location with the above command"
+$ git commit -am "changed files directly and not in the staging area"
+$ git checkout -- index.html (take from repo and make working copy!! >>>> All to do with branches)
+$ git reset HEAD profile.html (name file that you want to remove from staging area - brings it back down to the working area locally)
+$ git chechout "commit ID" -- index.html
+$ git remote add gitHubRepo "url...... from gitHub"
+$ git remote 
+$ git push -u gitHubRepo master (enter username and password)
